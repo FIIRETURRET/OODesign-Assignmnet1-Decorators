@@ -24,11 +24,11 @@ public class Apple extends BakingDecorator {
 	
 	public void solveEncounter(String s) {
 		if (s.equals("1")) {
-			System.out.println("The Apple Bites Back! \n Take 1 damage");
+			System.out.println("The Apple Bites Back! \n Take 1 damage\n");
 			score = -3;
 		}
 		else if (s.equals("2")) {
-			System.out.println("You smite the apple and harvest its flesh. \n +3 points");
+			System.out.println("You smite the apple and harvest its flesh. \n +3 points\n");
 			score = 3;
 		}
 	}
